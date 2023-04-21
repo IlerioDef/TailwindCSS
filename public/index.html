@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,7 +11,7 @@
         <div>
             <nav>
                 <div>
-                    <h1 class="font-bold uppercase">
+                    <h1 class="font-bold uppercase p-4 border-b border-red-100">
                         <a href="/">Tailwind CSS</a>
                     </h1>
                 </div>
@@ -36,18 +37,19 @@
                 </ul>
             </nav>
         </div> <!-- end nav -->
-        <main>
+        <main class="px-16 py-6">
             <div>
-                <a href="#">Login</a>
-                <a href="#">Sign up</a>
+                <a href="#" class="text-primary">Login</a>
+                <a href="#" class="text-primary">Sign up</a>
             </div>
             <header>
                 <h2 class="text-gray-900 text-6xl font-semibold">Recipes</h2>
                 <h3 class="text-2xl font-semibold">For tailwinders</h3>
             </header>
             <div>
-                <h4 class="font-bold">Latest Recipes</h4>
-                <div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-red-500">Latest Recipes</h4>
+
+                <div class="mt-8">
                     <!-- cards go here -->
                     <div>
                         <img src="img/Beef_stew.jpg" alt="beef stew">
@@ -57,13 +59,13 @@
                         </div>
                     </div>
                 </div>
-                <h4 class="font-bold">Most Popular</h4>
-                <div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-red-500">Most Popular</h4>
+                <div class="mt-8">
                     <!-- cards go here -->
 
                 </div>
                 <div>
-                    <div>
+                    <div class="bg-secondary-100 text-secondary-200 tex">
                         <button>Load more</button>
                     </div>
                 </div>
